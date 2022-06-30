@@ -1,0 +1,117 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --gray :#4a5568;
+    --darkgrey : #2D3748;
+}
+
+
+
+/* Home CSS */
+
+/* Navbar Section */
+nav {
+	width: 85%;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 8vh;
+
+
+}
+
+.nav-logo h1 a {
+	font-size: 32px;
+	height: auto;
+	padding: 0 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+    list-style: none;
+}
+
+.nav-links a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+/* Hero Section*/
+.hero {
+    background-image: url(./img/hero.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.hero-caption {
+	position: relative;
+	top: 32vh;
+	left: 26vh;
+}
+
+.hero-caption h2 {
+	max-width: 400px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.hero-caption p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 90%;
+	line-height: 1.5;
+	width: 300px;
+}
+
+
+
+
+/* City Image Positioning */
+.city {
+	height: auto;
+	display: flex;
+	padding-top: 4%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/* City Image section */
+.jakarta img{
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.surabaya img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.bali img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
+
+.kediri img {
+	border-radius: 10%;
+	width: 30vh;
+	height: 30vh;
+}
